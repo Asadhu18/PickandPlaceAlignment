@@ -64,6 +64,7 @@
             this.xDimensionLabel = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.yDimensionLabel = new System.Windows.Forms.Label();
+            this.calibrateScaleFactorBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.scaleFactorNUD)).BeginInit();
             this.SuspendLayout();
@@ -120,68 +121,68 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(77, 31);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(45, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 20);
+            this.label1.Size = new System.Drawing.Size(237, 29);
             this.label1.TabIndex = 5;
             this.label1.Text = "Live Video Preview";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(465, 28);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(448, 23);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 20);
+            this.label2.Size = new System.Drawing.Size(199, 29);
             this.label2.TabIndex = 6;
             this.label2.Text = "Captured Image";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(904, 28);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(906, 21);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 20);
+            this.label3.Size = new System.Drawing.Size(164, 29);
             this.label3.TabIndex = 7;
             this.label3.Text = "Canny Image";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1351, 28);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(1293, 21);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(143, 20);
+            this.label4.Size = new System.Drawing.Size(208, 29);
             this.label4.TabIndex = 8;
             this.label4.Text = "Corrected Image";
             // 
             // videoSourceList
             // 
-            this.videoSourceList.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.videoSourceList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.videoSourceList.FormattingEnabled = true;
-            this.videoSourceList.Location = new System.Drawing.Point(108, 405);
+            this.videoSourceList.Location = new System.Drawing.Point(123, 405);
             this.videoSourceList.Name = "videoSourceList";
-            this.videoSourceList.Size = new System.Drawing.Size(207, 24);
+            this.videoSourceList.Size = new System.Drawing.Size(192, 28);
             this.videoSourceList.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 410);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(12, 407);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 16);
+            this.label5.Size = new System.Drawing.Size(105, 20);
             this.label5.TabIndex = 10;
             this.label5.Text = "Video Source";
             // 
             // recordBtn
             // 
-            this.recordBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recordBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.recordBtn.Location = new System.Drawing.Point(12, 362);
             this.recordBtn.Name = "recordBtn";
-            this.recordBtn.Size = new System.Drawing.Size(142, 32);
+            this.recordBtn.Size = new System.Drawing.Size(174, 32);
             this.recordBtn.TabIndex = 11;
             this.recordBtn.Text = "Begin Recording";
             this.recordBtn.UseVisualStyleBackColor = true;
@@ -189,7 +190,7 @@
             // 
             // captureImageBtn
             // 
-            this.captureImageBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.captureImageBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.captureImageBtn.Location = new System.Drawing.Point(469, 438);
             this.captureImageBtn.Name = "captureImageBtn";
             this.captureImageBtn.Size = new System.Drawing.Size(142, 32);
@@ -200,10 +201,10 @@
             // 
             // cannyBtn
             // 
-            this.cannyBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cannyBtn.Location = new System.Drawing.Point(893, 440);
+            this.cannyBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cannyBtn.Location = new System.Drawing.Point(879, 440);
             this.cannyBtn.Name = "cannyBtn";
-            this.cannyBtn.Size = new System.Drawing.Size(205, 32);
+            this.cannyBtn.Size = new System.Drawing.Size(237, 32);
             this.cannyBtn.TabIndex = 13;
             this.cannyBtn.Text = "Convert To Canny Image";
             this.cannyBtn.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -212,7 +213,7 @@
             // 
             // rotateBtn
             // 
-            this.rotateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rotateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rotateBtn.Location = new System.Drawing.Point(1245, 442);
             this.rotateBtn.Name = "rotateBtn";
             this.rotateBtn.Size = new System.Drawing.Size(127, 32);
@@ -243,26 +244,26 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(322, 483);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 16);
+            this.label6.Size = new System.Drawing.Size(53, 20);
             this.label6.TabIndex = 18;
             this.label6.Text = "Gama";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(322, 525);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(315, 525);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(57, 16);
+            this.label7.Size = new System.Drawing.Size(70, 20);
             this.label7.TabIndex = 19;
             this.label7.Text = "Contrast";
             // 
             // centerBtn
             // 
-            this.centerBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.centerBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.centerBtn.Location = new System.Drawing.Point(1447, 440);
             this.centerBtn.Name = "centerBtn";
             this.centerBtn.Size = new System.Drawing.Size(127, 32);
@@ -275,20 +276,20 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(1346, 486);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(1131, 483);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(98, 20);
+            this.label8.Size = new System.Drawing.Size(112, 24);
             this.label8.TabIndex = 21;
             this.label8.Text = "Offset Angle";
             // 
             // offsetAngle
             // 
             this.offsetAngle.AutoSize = true;
-            this.offsetAngle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.offsetAngle.Location = new System.Drawing.Point(1450, 486);
+            this.offsetAngle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.offsetAngle.Location = new System.Drawing.Point(1262, 484);
             this.offsetAngle.Name = "offsetAngle";
-            this.offsetAngle.Size = new System.Drawing.Size(31, 20);
+            this.offsetAngle.Size = new System.Drawing.Size(35, 24);
             this.offsetAngle.TabIndex = 22;
             this.offsetAngle.Text = "0.0";
             // 
@@ -300,10 +301,10 @@
             // autoProcessCheckBox
             // 
             this.autoProcessCheckBox.AutoSize = true;
-            this.autoProcessCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.autoProcessCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.autoProcessCheckBox.Location = new System.Drawing.Point(192, 370);
             this.autoProcessCheckBox.Name = "autoProcessCheckBox";
-            this.autoProcessCheckBox.Size = new System.Drawing.Size(107, 20);
+            this.autoProcessCheckBox.Size = new System.Drawing.Size(123, 24);
             this.autoProcessCheckBox.TabIndex = 23;
             this.autoProcessCheckBox.Text = "Auto Process";
             this.autoProcessCheckBox.UseVisualStyleBackColor = true;
@@ -311,10 +312,10 @@
             // houghLineCheckBox
             // 
             this.houghLineCheckBox.AutoSize = true;
-            this.houghLineCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.houghLineCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.houghLineCheckBox.Location = new System.Drawing.Point(925, 478);
             this.houghLineCheckBox.Name = "houghLineCheckBox";
-            this.houghLineCheckBox.Size = new System.Drawing.Size(138, 20);
+            this.houghLineCheckBox.Size = new System.Drawing.Size(162, 24);
             this.houghLineCheckBox.TabIndex = 24;
             this.houghLineCheckBox.Text = "Show Hough Lines";
             this.houghLineCheckBox.UseVisualStyleBackColor = true;
@@ -322,10 +323,10 @@
             // centerCheckbox
             // 
             this.centerCheckbox.AutoSize = true;
-            this.centerCheckbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.centerCheckbox.Location = new System.Drawing.Point(936, 504);
+            this.centerCheckbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.centerCheckbox.Location = new System.Drawing.Point(942, 504);
             this.centerCheckbox.Name = "centerCheckbox";
-            this.centerCheckbox.Size = new System.Drawing.Size(102, 20);
+            this.centerCheckbox.Size = new System.Drawing.Size(120, 24);
             this.centerCheckbox.TabIndex = 25;
             this.centerCheckbox.Text = "Show Center";
             this.centerCheckbox.UseVisualStyleBackColor = true;
@@ -335,10 +336,10 @@
             this.groupBox1.Controls.Add(this.xyEqualRadioBtn);
             this.groupBox1.Controls.Add(this.xDominantRadioBtn);
             this.groupBox1.Controls.Add(this.yDominantRadioBtn);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(1389, 509);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(1357, 484);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(234, 96);
+            this.groupBox1.Size = new System.Drawing.Size(258, 111);
             this.groupBox1.TabIndex = 27;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Allignment Options";
@@ -348,7 +349,7 @@
             this.xyEqualRadioBtn.AutoSize = true;
             this.xyEqualRadioBtn.Location = new System.Drawing.Point(14, 71);
             this.xyEqualRadioBtn.Name = "xyEqualRadioBtn";
-            this.xyEqualRadioBtn.Size = new System.Drawing.Size(207, 20);
+            this.xyEqualRadioBtn.Size = new System.Drawing.Size(243, 24);
             this.xyEqualRadioBtn.TabIndex = 29;
             this.xyEqualRadioBtn.TabStop = true;
             this.xyEqualRadioBtn.Text = "X and Y Dimensions are Equal";
@@ -359,7 +360,7 @@
             this.xDominantRadioBtn.AutoSize = true;
             this.xDominantRadioBtn.Location = new System.Drawing.Point(13, 49);
             this.xDominantRadioBtn.Name = "xDominantRadioBtn";
-            this.xDominantRadioBtn.Size = new System.Drawing.Size(177, 20);
+            this.xDominantRadioBtn.Size = new System.Drawing.Size(209, 24);
             this.xDominantRadioBtn.TabIndex = 28;
             this.xDominantRadioBtn.TabStop = true;
             this.xDominantRadioBtn.Text = "X dimension larger than Y";
@@ -370,7 +371,7 @@
             this.yDominantRadioBtn.AutoSize = true;
             this.yDominantRadioBtn.Location = new System.Drawing.Point(14, 23);
             this.yDominantRadioBtn.Name = "yDominantRadioBtn";
-            this.yDominantRadioBtn.Size = new System.Drawing.Size(177, 20);
+            this.yDominantRadioBtn.Size = new System.Drawing.Size(209, 24);
             this.yDominantRadioBtn.TabIndex = 27;
             this.yDominantRadioBtn.TabStop = true;
             this.yDominantRadioBtn.Text = "Y dimension larger than X";
@@ -378,77 +379,90 @@
             // 
             // scaleFactorNUD
             // 
+            this.scaleFactorNUD.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scaleFactorNUD.Increment = new decimal(new int[] {
             1,
             0,
             0,
             196608});
-            this.scaleFactorNUD.Location = new System.Drawing.Point(1291, 509);
+            this.scaleFactorNUD.Location = new System.Drawing.Point(1271, 598);
             this.scaleFactorNUD.Name = "scaleFactorNUD";
-            this.scaleFactorNUD.Size = new System.Drawing.Size(92, 20);
+            this.scaleFactorNUD.Size = new System.Drawing.Size(84, 29);
             this.scaleFactorNUD.TabIndex = 28;
             this.scaleFactorNUD.Value = new decimal(new int[] {
-            26,
+            1,
             0,
             0,
-            196608});
+            0});
             this.scaleFactorNUD.ValueChanged += new System.EventHandler(this.scaleFactorNUD_ValueChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(1201, 511);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(1136, 600);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 16);
+            this.label9.Size = new System.Drawing.Size(115, 24);
             this.label9.TabIndex = 29;
             this.label9.Text = "Scale Factor";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(1204, 538);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(1133, 550);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(81, 16);
+            this.label10.Size = new System.Drawing.Size(119, 24);
             this.label10.TabIndex = 30;
-            this.label10.Text = "X dimension";
+            this.label10.Text = "X Dimension";
             // 
             // xDimensionLabel
             // 
             this.xDimensionLabel.AutoSize = true;
-            this.xDimensionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xDimensionLabel.Location = new System.Drawing.Point(1290, 538);
+            this.xDimensionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xDimensionLabel.Location = new System.Drawing.Point(1265, 550);
             this.xDimensionLabel.Name = "xDimensionLabel";
-            this.xDimensionLabel.Size = new System.Drawing.Size(25, 16);
+            this.xDimensionLabel.Size = new System.Drawing.Size(35, 24);
             this.xDimensionLabel.TabIndex = 31;
             this.xDimensionLabel.Text = "0.0";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(1204, 558);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(1134, 574);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(82, 16);
+            this.label12.Size = new System.Drawing.Size(117, 24);
             this.label12.TabIndex = 32;
-            this.label12.Text = "Y dimension";
+            this.label12.Text = "Y Dimension";
             // 
             // yDimensionLabel
             // 
             this.yDimensionLabel.AutoSize = true;
-            this.yDimensionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yDimensionLabel.Location = new System.Drawing.Point(1290, 558);
+            this.yDimensionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yDimensionLabel.Location = new System.Drawing.Point(1266, 574);
             this.yDimensionLabel.Name = "yDimensionLabel";
-            this.yDimensionLabel.Size = new System.Drawing.Size(25, 16);
+            this.yDimensionLabel.Size = new System.Drawing.Size(35, 24);
             this.yDimensionLabel.TabIndex = 33;
             this.yDimensionLabel.Text = "0.0";
+            // 
+            // calibrateScaleFactorBtn
+            // 
+            this.calibrateScaleFactorBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calibrateScaleFactorBtn.Location = new System.Drawing.Point(1124, 510);
+            this.calibrateScaleFactorBtn.Name = "calibrateScaleFactorBtn";
+            this.calibrateScaleFactorBtn.Size = new System.Drawing.Size(198, 38);
+            this.calibrateScaleFactorBtn.TabIndex = 34;
+            this.calibrateScaleFactorBtn.Text = "Calibrate Scale Factor";
+            this.calibrateScaleFactorBtn.UseVisualStyleBackColor = true;
+            this.calibrateScaleFactorBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1619, 652);
+            this.Controls.Add(this.calibrateScaleFactorBtn);
             this.Controls.Add(this.yDimensionLabel);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.xDimensionLabel);
@@ -528,6 +542,7 @@
         private System.Windows.Forms.Label xDimensionLabel;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label yDimensionLabel;
+        private System.Windows.Forms.Button calibrateScaleFactorBtn;
     }
 }
 

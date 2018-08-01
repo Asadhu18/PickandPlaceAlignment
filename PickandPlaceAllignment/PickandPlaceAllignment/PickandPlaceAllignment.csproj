@@ -92,6 +92,7 @@
     <Reference Include="HyrelPrinterControls">
       <HintPath>..\..\..\..\..\Desktop\Akhil Docs\Visual Studio Projects\HyrelCameraControl1\HyrelCameraControl\bin\Debug\HyrelPrinterControls.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
